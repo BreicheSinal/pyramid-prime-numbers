@@ -1,7 +1,7 @@
 var enterBttn = document.getElementById('enterBttn');
 var input = document.getElementById('numberInput');
 var outputSec = document.getElementById('outputSection')
-
+ 
 enterBttn.addEventListener('click', pyramid);
 
 function pyramid(){
