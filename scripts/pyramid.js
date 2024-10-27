@@ -8,7 +8,7 @@ function pyramid(){
     var inputValue = input.value;
     var output = []; 
 
-    if(inputValue == 0 || inputValue <= 0)
+    if(inputValue == 0 || inputValue <= 0 || isNaN(inputValue))
     {
         outputSec.style.color = 'darkcyan';
         outputSec.textContent = 'ENTER A NON ZERO NUMBER MATE ;)';
